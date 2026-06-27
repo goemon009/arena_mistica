@@ -3,12 +3,17 @@ package service;
 import factory.FabricaCriatura;
 import model.Criatura;
 
-/*
- * GRASP - Low Coupling
- *
- * A Arena depende apenas das abstrações
- * Criatura e FabricaCriatura.
- */
+    /*
+    * GOF - Factory Method
+    *
+    * A Arena delega a criação da criatura para uma fábrica.
+    * Dessa forma, não precisa conhecer qual classe concreta será instanciada.
+    *
+    * GRASP - Low Coupling
+    *
+    * O acoplamento entre Arena e as criaturas concretas é reduzido através do uso de abstrações.
+    */
+
 public class Arena {
 
     public void invocarCriatura(FabricaCriatura fabrica) {

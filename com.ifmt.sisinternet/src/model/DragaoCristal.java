@@ -1,5 +1,13 @@
 package model;
 
+/*
+ * GRASP - High Cohesion
+ *
+ * Esta classe contém apenas comportamentos relacionados ao Dragão de Cristal.
+ *
+ * Ela não possui responsabilidades de criação, gerenciamento ou controle do sistema.
+ */
+
 public class DragaoCristal implements Criatura {
 
     @Override

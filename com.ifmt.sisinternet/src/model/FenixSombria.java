@@ -1,5 +1,13 @@
 package model;
 
+/*
+ * GRASP - High Cohesion
+ *
+ * Esta classe contém apenas comportamentos relacionados ao Fênix Sombria.
+ *
+ * Ela não possui responsabilidades de criação, gerenciamento ou controle do sistema.
+ */
+
 public class FenixSombria implements Criatura {
 
     @Override

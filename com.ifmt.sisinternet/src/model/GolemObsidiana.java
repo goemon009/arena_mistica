@@ -1,5 +1,13 @@
 package model;
 
+/*
+ * GRASP - High Cohesion
+ *
+ * Esta classe contém apenas comportamentos relacionados ao Golem de Obsidiana.
+ *
+ * Ela não possui responsabilidades de criação, gerenciamento ou controle do sistema.
+ */
+
 public class GolemObsidiana implements Criatura {
 
     @Override
